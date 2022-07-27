@@ -1,0 +1,2 @@
+[15-Apr-2021 10:53:05 America/Mexico_City] PHP Warning:  mail(): headers parameter must be string or array in /home3/sigmatie/public_html/process/send.php on line 10
+[15-Apr-2021 10:56:37 America/Mexico_City] PHP Warning:  mail(): headers parameter must be string or array in /home3/sigmatie/public_html/process/send.php on line 10

@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^sigmatienda\.com\.mx$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sigmatienda\.com\.mx$
+RewriteRule ^/?$ "https\:\/\/www\.sigmatienda\.com\.mx\/" [R=301,L]
+
